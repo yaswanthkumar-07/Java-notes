@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class CommonIssuesWithScanner {
+    public static void main(String[] args){
+        //COMMON ISSUES
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your age:");
+
+        int age = sc.nextInt();
+        sc.nextLine();// Ignores the input buffer issues
+        //Or to clear the input Buffer
+        //Every time we use nextLine() after int or double for to use string after them
+        //new line character in the input buffer
+
+        System.out.println("Enter your favorite color");
+        String color =sc.nextLine();
+
+        System.out.println("You are "+age+" years old");
+        System.out.println("You  like the color"+color);
+
+    }
+
+}
