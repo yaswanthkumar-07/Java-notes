@@ -1,0 +1,36 @@
+public class ArithmeticOperators {
+    public static void main() {
+
+        // int x=10;
+        //int y=2;
+        //artimetic
+        //z=x+y;
+        //z=x-y;
+        //z=x/y;
+        //z=x%y;
+
+        //Augmented Assignment Operators
+        //x+=y;
+        //x-=y;
+        //x*=y;
+        //x /=y;
+        //x %=y;
+
+
+        //Increment and Decrement
+
+        int x=7;
+
+        //x++;
+        //x--;
+
+
+        //ORDER OF OPERATIONS [P-E-M-D-A-S]
+
+        double result = 3 + 4 * (7 - 5) / 2.0;
+                        //(7-5)=2*4=8/2.0=4+3=7
+        
+        System.out.println(x);
+
+    }
+}
