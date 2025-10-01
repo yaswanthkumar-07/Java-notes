@@ -1,0 +1,57 @@
+public class PrintfMethod {
+    public static void main(String[] args) {
+
+        // printf() = is a method used to format output
+
+        //%[flags][width][.precision][specifier-character]
+/*
+
+        String name="Doraemon";
+        char firstLetter ='D';
+        int age = -87;
+        double height =129.3;
+        boolean isEmployed =true;
+
+        System.out.printf("Hello %s\n",name);
+        System.out.printf("Your name starts with a %c\n",firstLetter);
+        System.out.printf("You are %d years old\n", age);
+        System.out.printf("You are %f cm tall\n",height);
+        System.out.printf("Employed: %b\n",isEmployed);
+
+        System.out.printf("%s is %d years old",name,age);
+
+        //%[flags][width][.precision][specifier-character]
+        // + = output a plus
+        // , =comma grouping separator
+        // ( =negative numbers are enclosed in ()
+        // space =display a minus if negative,space if positive
+
+        double price1=123.32;
+        double price2=321.23;
+        double price3=345.54;
+        double price4=543.45;
+
+        System.out.printf("%.2f\n",price1);
+        System.out.printf("%.3f\n",price2);
+        System.out.printf("%-4f\n",price3);
+        System.out.printf("%.6f\n",price4);
+*/
+//width
+        //0=zero padding
+        //number=right justified
+        //negative number= left justified padding
+
+        int id1=1;
+        int id2=12;
+        int id3=123;
+        int id4=1234;
+
+        System.out.printf("%04d\n",id1);
+        System.out.printf("% 4d\n",id2);
+        System.out.printf("% 4d\n",id3);
+        System.out.printf("%04d\n",id4);
+
+
+    }
+}
+
